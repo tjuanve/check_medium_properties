@@ -7,7 +7,7 @@ from icecube.icetray import I3Units
 
 # Open the file
 # filename = "/data/sim/IceCube/2023/filtered/level2/neutrino-generator/22612/0000000-0000999/Level2_NuE_NuGenCCNC.022612.000000.i3.zst"  # or .i3.gz, etc.
-filename = "/mnt/ceph1-npx/user/tvaneede/GlobalFit/SnowStorm_systematics/iceprod/ScatFirst/hits_NuGenCCNC.i3.zst"
+# filename = "/mnt/ceph1-npx/user/tvaneede/GlobalFit/SnowStorm_systematics/iceprod/ScatFirst/hits_NuGenCCNC.i3.zst"
 filename = "/mnt/ceph1-npx/user/tvaneede/GlobalFit/SnowStorm_systematics/iceprod/hits_NuGenCCNC.i3.zst"
 infile = dataio.I3File(filename)
 
